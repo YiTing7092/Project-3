@@ -30,6 +30,15 @@ main{
 
 }
 
+nav{
+  background-color: #61380B;
+}
+
+nav a{
+  text-decoration: none;
+  color: #F5ECCE;
+}
+
 h1,
 h2,
 h3,
