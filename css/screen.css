@@ -16,9 +16,26 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   3. basic element presenation
 */
 html{
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em;   /* 18 / 16 = 1.125 */
   line-height: 1.222em;  /* 22 /18 = 1.222 */
+}
+
+body{
+  height: 100%;
+}
+
+main{
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.222em; /* 22 / 18 = 1.222 basic line height*/
 }
 
 
