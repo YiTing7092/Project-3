@@ -27,7 +27,12 @@ body{
 }
 
 main{
+  padding-left: 1.222em;
+  padding-right: 1.222em;
+}
 
+footer{
+  height: 100%;
 }
 
 nav{
@@ -62,6 +67,25 @@ h6 {
   2. concerned with layout and spatial
      relationships
 */
+nav{
+  display: block;
+  position: absolute;;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+nav li ul{
+  display: flex;
+  flex-flow: row;
+}
+
+h1{
+  position: absolute;
+  top: 4.888em; /* 1.222 * 4 = 4.888 4lines before this line*/
+}
+
+
 
 
 
@@ -95,12 +119,5 @@ h6 {
 }
 
 @media screen and (min-width: 860px) {
-  /*
-    700 pixel grid w/ 80px margins (160)
-    Columns: 200px;
-    Gutters: 50px;
-    Primary module: 450px;
-    Secondary modul: 200px;
-  */
 
 }
