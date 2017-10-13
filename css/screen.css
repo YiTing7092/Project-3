@@ -48,7 +48,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   line-height: 1.222em; /* 22 / 18 = 1.222 basic line height*/
 }
 
@@ -59,9 +60,10 @@ h6 {
   2. concerned with layout and spatial
      relationships
 */
-nav{
+#navigation{
   display: block;
   position: absolute;;
+  /*padding-bottom: 1.222em; for testing */
   left: 0;
   top: 0;
   width: 100%;
@@ -72,18 +74,29 @@ nav li{
   width: 33.3333333333%;
 }
 
-nav ul li{
-  display: flex;
+nav a{
+  display: block;
   flex-flow: row;
-  width: 33.3333%;
+  width: 100%;
+  text-align: center;
 }
 
 h1{
-  position: absolute;
-  top: 4.888em; /* 1.222 * 4 = 4.888 4lines before this line*/
+  top: 1.2222em;
+  left: 2.22222em;
   text-align: center;
-  font-size: 1.5em; /* 24 / 16 = 1.5 */
+  font-size: 2.2222em; /* 40 / 18 = 2.2222 */
+}
 
+h2{
+  text-align: center;
+  font-size: 1.777em;
+  line-height: 1.032em;
+  padding-bottom: 0.61111em; /* 11 / 18 = 0.61111*/
+}
+
+h3{
+  text-align: left;
 }
 
 
@@ -102,6 +115,20 @@ img{
   2. concerned with adjustments to base styles,
       spacing, color, etc. etc.
 */
+
+nav li,
+nav ul{
+  padding-bottom: 0;
+}
+
+ul li{
+  padding-left: 1.25em; /* 20 / 16 = 1.25*/
+}
+
+p{
+  padding-left: 1.25em;
+  text-indent: 1.25em;
+}
 
 
 /* State Styles */
