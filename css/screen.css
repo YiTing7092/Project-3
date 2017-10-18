@@ -19,18 +19,16 @@ html{
   background-color: #F5ECCE;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em;   /* 18 / 16 = 1.125 */
-  line-height: 1.222em;  /* 22 /18 = 1.222 */
+  line-height: 1.222em;  /* 22 /18 = 1.222 basic line height*/
 }
 
 body{
-  padding-top: 2.2222em; /* 40 / 18 = 2.22222... */
-  padding-left: 1.222em;
-  padding-right: 1.222em;
-  height: 100%;
+  padding-top: 2.4444em; /* 44/ 18 = 2.4444*/
+  padding-left: 1.2222em; /* 22 / 18 = 1.2222*/
+  padding-right: 1.2222em;
 }
 
 footer{
-  height: 100%;
 }
 
 nav{
