@@ -28,7 +28,8 @@ body{
   padding-right: 1.2222em;
 }
 
-footer{
+#header{
+  padding-top: 0.61111em;
 }
 
 nav{
