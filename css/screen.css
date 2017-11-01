@@ -45,6 +45,7 @@ nav a{
   text-decoration: none;
   color: #F5ECCE;
   text-align: center;
+  line-height: 2.4444em; /* 44/ 18 = 2.4444*/
 }
 
 h1,
@@ -65,12 +66,9 @@ nav li{
   display: block;
   float: left;
   width: 33.3333333333%;
-
 }
 
 h1{
-  top: 2.2222em;
-  left: 2.22222em;
   text-align: center;
   font-size: 2.4444em; /* 44 / 18 = 2.4444 */
   line-height: 2.4444em; /*  44/ 18 = 2.4444*/
