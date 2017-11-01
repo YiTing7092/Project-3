@@ -129,7 +129,7 @@ p{
 
 @media screen and (min-width: 375px) {
   body{
-    font-size: 1.2222em;
+    font-size: 1em; /* 18/18 = 1*/
     padding-left: 11.733%; /*  44/375 = 11.73333%*/
     padding-right: 11.7333%;
   }
