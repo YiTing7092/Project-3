@@ -84,15 +84,28 @@ h2{
 h3{
   font-size: 1.222em /* 22 / 18 = 1.222*/
   text-align: left;
+  font-weight: bold;
   font-style: oblique;
   color: #21610B;
 }
 
+ul li{
+  padding-bottom: 0.5em; /* 9/18 = 0.5*/
+  list-style-type: disc;
+}
+
+p{
+  padding-left: 1.25em;
+  padding-top: 0.61111em;
+  padding-bottom: 0.61111em;
+  text-indent: 1.25em;
+}
 
 img{
   display: block;
   max-width: 100%;
   padding-top: 1.222em;
+  padding-bottom: 0.5em;
 }
 
 
@@ -105,15 +118,10 @@ img{
       spacing, color, etc. etc.
 */
 
-ul li{
-  padding-bottom: 0.5em; /* 8 / 16 = 0.5*/
-}
-
-p{
-  padding-left: 1.25em;
-  padding-top: 0.61111em;
-  padding-bottom: 0.61111em;
-  text-indent: 1.25em;
+#home,
+#resume,
+#about{
+    background-color: #;
 }
 
 
