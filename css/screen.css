@@ -28,10 +28,6 @@ body{
   padding-right: 1.2222em;
 }
 
-#header{
-  padding-top: 0.61111em;
-}
-
 nav{
   position: absolute;
   top: 0;
@@ -62,6 +58,10 @@ p {
   2. concerned with layout and spatial
      relationships
 */
+#header{
+  padding-top: 0.61111em;
+}
+
 nav li{
   display: block;
   float: left;
