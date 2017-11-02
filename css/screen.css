@@ -58,11 +58,15 @@ p {
   2. concerned with layout and spatial
      relationships
 */
+
+
 #header{
   padding-top: 0.61111em;
+  padding-bottom: 0.61111em;
 }
 
 nav li{
+  padding: 0;
   display: block;
   float: left;
   width: 33.3333333333%;
@@ -118,10 +122,9 @@ img{
       spacing, color, etc. etc.
 */
 
-#home,
-#resume,
-#about{
-    background-color: #;
+#navigation a:hover {
+  background-color: #610B0B;
+  color: white;
 }
 
 
