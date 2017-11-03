@@ -198,7 +198,6 @@ img{
   #postcard2,
   #postcard3{
     flex: auto;
-    height: 50%;
-    width: 50%;
+    width: 80%;
   }
 }
