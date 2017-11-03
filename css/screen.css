@@ -91,6 +91,7 @@ h2{
 }
 
 h3{
+  padding-bottom: 0.61111em;
   font-size: 1.222em /* 22 / 18 = 1.222*/
   text-align: left;
   font-weight: bold;
@@ -99,12 +100,13 @@ h3{
 }
 
 ul li{
+  line-height: 1.2222em;
+  text-align: left;
   list-style-type: disc;
 }
 
 p{
   padding-left: 1.25em;
-  padding-top: 0.61111em;
   padding-bottom: 0.61111em;
   text-indent: 1.25em;
 }
@@ -129,6 +131,11 @@ img{
 #navigation a:hover {
   background-color: #610B0B;
   color: white;
+}
+
+#edulist,
+#sklist{
+  padding-left: 2em;
 }
 
 
