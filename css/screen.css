@@ -28,6 +28,11 @@ body{
   padding-right: 1.2222em;
 }
 
+footer{
+  font-size: small;
+  text-align: center;
+}
+
 nav{
   position: absolute;
   top: 0;
