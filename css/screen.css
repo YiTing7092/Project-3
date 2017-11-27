@@ -22,6 +22,11 @@ html{
   line-height: 1.222em;  /* 22 /18 = 1.222 basic line height*/
 }
 
+header{
+  padding-top: 1.222em;
+  padding-bottom: 1.222em;
+}
+
 body{
   padding-top: 1.2222em; /* 22/ 18 = 2.4444*/
   padding-left: 1.2222em; /* 22 / 18 = 1.2222*/
@@ -29,7 +34,9 @@ body{
 }
 
 footer{
-  font-size: small;
+  padding-top: 1.222em;
+  font-size: 0.5625em;/* 9 / 16 = 0.5625 */
+  line-height: 1.222em;
   text-align: center;
 }
 
@@ -46,7 +53,7 @@ nav a{
   text-decoration: none;
   color: #F5ECCE;
   text-align: center;
-  line-height: 2.4444em; /* 44/ 18 = 2.4444*/
+  line-height: 2.444em; /* 44/ 18 = 2.4444*/
 }
 
 h1,
@@ -79,22 +86,19 @@ nav li{
 
 h1{
   text-align: center;
-  font-size: 2.4444em; /* 44 / 18 = 2.4444 */
-  line-height: 2.4444em; /*  44/ 18 = 2.4444*/
+  font-size: 2.444em; /* 44 / 18 = 2.4444 */
+  line-height: 1.222em; /*  22/ 18 = 1.222*/
 }
 
 h2{
   text-align: center;
-  font-size: 1.83333em; /* 33 / 18 = 1.83333*/
-  line-height: 2.4444em; /* 44 / 18 = 2.4444*/
-  padding-bottom: 0.61111em; /* 11 / 18 = 0.61111*/
+  font-size: 1.222em; /* 33 / 18 = 1.83333*/
+  line-height: 1.222em; /* 44 / 18 = 2.4444*/
 }
 
 h3{
-  padding-bottom: 0.61111em;
   font-size: 1.222em /* 22 / 18 = 1.222*/
   text-align: left;
-  font-weight: bold;
   font-style: oblique;
   color: #21610B;
 }
@@ -106,8 +110,8 @@ ul li{
 }
 
 p{
+  padding-top: 0.6111em;
   padding-left: 1.25em;
-  padding-bottom: 0.61111em;
   text-indent: 1.25em;
 }
 
@@ -115,7 +119,7 @@ img{
   display: block;
   max-width: 100%;
   padding-top: 1.222em;
-  padding-bottom: 0.5em;
+  padding-bottom: 1.222em;
 }
 
 
