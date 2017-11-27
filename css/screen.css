@@ -86,14 +86,15 @@ nav li{
 
 h1{
   text-align: center;
-  font-size: 2.444em; /* 44 / 18 = 2.4444 */
+  font-size: 3.6667em; /* 66 / 18 = 3.667 */
   line-height: 1.222em; /*  22/ 18 = 1.222*/
 }
 
 h2{
   text-align: center;
-  font-size: 1.222em; /* 33 / 18 = 1.83333*/
-  line-height: 1.222em; /* 44 / 18 = 2.4444*/
+  font-size: 2.444em; /*44 / 18 = 2.444 */
+  line-height: 1.222em;
+  padding-top: 1.222em;
 }
 
 h3{
@@ -110,9 +111,10 @@ ul li{
 }
 
 p{
-  padding-top: 0.6111em;
   padding-left: 1.25em;
   text-indent: 1.25em;
+  padding-top: 1.222em;
+  padding-bottom: 1.222em;
 }
 
 img{
