@@ -124,7 +124,10 @@ img{
   padding-bottom: 1.222em;
 }
 
+label{
+  display:block;
 
+}
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -142,6 +145,11 @@ img{
 #edulist,
 #sklist{
   padding-left: 2em;
+}
+
+form ol,
+form ol li{
+  list-style-type: none;
 }
 
 
