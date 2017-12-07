@@ -22,24 +22,27 @@
       </nav>
     </header>
     <main id="contect">
-      <form action="null" method="get" id="visiter_info">
+      <form action="#null" method="get" id="visiter_info">
         <ol>
           <li>
-            <label for="GET_name">Your name: </label>
+            <label for="GET_name">Name: </label>
             <input id="GET_name" type="text" name="name">
           </li>
           <li>
-            <label for="GET_email">Your email for response: </label>
+            <label for="GET_email">E-mail address: </label>
             <input id="GET_email" type="text" name="email">
           </li>
           <li>
+            <label for="commons">Commons: </label>
             <textarea id="commons"></textarea>
           </li>
-            <input type="submit">
+            <input type="submit" name="submit" value="Submit" />
       </ol>
       </form>
 
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="site.js"></script>
     <footer id="footer">
       <p>&copy; Yi Ting Lin 2017</p>
     </footer>
