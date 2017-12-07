@@ -53,7 +53,7 @@ nav a{
   text-decoration: none;
   color: #F5ECCE;
   text-align: center;
-  line-height: 2.444em; /* 44/ 18 = 2.4444*/
+  line-height: 3.6667em; /* 66/ 18 = 3.6667*/
 }
 
 h1,
@@ -71,12 +71,6 @@ p {
      relationships
 */
 
-
-/*#header{
-  padding-top: 0.61111em;
-  padding-bottom: 0.61111em;
-}*/
-
 nav li{
   padding: 0;
   display: block;
@@ -85,8 +79,9 @@ nav li{
 }
 
 h1{
+  padding-top: 1.222em;
   text-align: center;
-  font-size: 3.6667em; /* 66 / 18 = 3.667 */
+  font-size: 3.0555em; /* 55 / 18 = 3.05555 */
   line-height: 1.222em; /*  22/ 18 = 1.222*/
 }
 
@@ -113,20 +108,19 @@ ul li{
 p{
   padding-left: 1.25em;
   text-indent: 1.25em;
-  padding-top: 1.222em;
-  padding-bottom: 1.222em;
+  /*padding-bottom: 1.222em;*/
 }
 
 img{
   display: block;
   max-width: 100%;
-  padding-top: 1.222em;
-  padding-bottom: 1.222em;
+  padding-top: 0.6111em;
+  padding-bottom: 0.6111em;
 }
 
 label{
   display:block;
-
+  line-height: 1.222em;
 }
 /* Modular Styles */
 /*
@@ -163,11 +157,14 @@ form ol li{
   3. Organized by Base, Layout, Module, State
 */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
+  html{
+    font-size: 1em; /* 18 / 18 = 1*/
+    line-height: 1.2222em;
+  }
   body{
-    font-size: 1em; /* 18/18 = 1*/
-    padding-left: 11.733%; /*  44/375 = 11.73333%*/
-    padding-right: 11.7333%;
+    padding-left: 6.875%; /*  22/320 = 6.875%*/
+    padding-right: 6.875%;
   }
   .flexbox #postcardcollection{
     display: flex;
@@ -177,7 +174,18 @@ form ol li{
   #postcard2,
   #postcard3{
     flex: auto;
+    width: 60%
   }
+  h1{
+    font-size: 2em; /* 36 / 18 = 2*/
+  }
+  h2{
+    font-size: 1.5em; /* 27/ 18 = 1.5*/
+  }
+  h3{
+    font-size: 1.2em; /*21.6 / 18 = 1.2 */
+  }
+
 }
 
 @media screen and (min-width: 640px) {
